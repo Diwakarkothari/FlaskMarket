@@ -9,7 +9,7 @@ from flask_login import LoginManager, login_user, UserMixin, logout_user, login_
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///market.db'
-app.config['SECRET_KEY'] = '4d5f8a7df1923ea04893ef45'
+app.config['SECRET_KEY'] = '4d5f8a7df1923ea04893ef45' # for get and post method
 
 # to run manually
 # set FLASK_APP=market.py
